@@ -1,5 +1,5 @@
 # Hollow-Knight-SaveManager
-Manage and edit Hollow Knight saves
+Manage and edit Hollow Knight saves for all current releases, Windows/Linux/Mac/Switch.
 
 #### Usage:
  On the left of the main window there is the 4 currently loaded saves, each save has 3 buttons
@@ -28,6 +28,18 @@ Double click a save in the file tree to open the save editor. From there you can
 #### Charms
 
 ![Save Editor Charms](screenshots/save_editor_charms.png?raw=true "Save Editor Charms")
+
+## Install instructions
+   * Download and install java 8 jdk [here](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+   * Go the save directory
+      * Win: %APPDATA%\..\LocalLow\Team Cherry\Hollow Knight\
+      * Mac: ~/Library/Application Support/unity.Team Cherry.Hollow Knight/
+      * Linux: ~/.config/unity3d/Team Cherry/Hollow Knight/
+   * Move the jar file from releases into save directory
+      * Not technically required as you can put the jar anywhere and use Set Save Location button to set the save directory
+   * Run the jar
+      * via cmd: java -jar HKSMv0.3.2.jar
+      * or double click for windows users
 
 ## Licenses
 
